@@ -52,11 +52,11 @@ X_test = scaler.transform(X_test)
 # ===============================
 # SIMPAN OUTPUT
 # ===============================
-os.makedirs("preprocessing/heart_disease_preprocessing", exist_ok=True)
+os.makedirs("heart_disease_preprocessing", exist_ok=True)
 
-np.save("preprocessing/heart_disease_preprocessing/X_train.npy", X_train)
-np.save("preprocessing/heart_disease_preprocessing/y_train.npy", y_train)
-np.save("preprocessing/heart_disease_preprocessing/X_test.npy", X_test)
-np.save("preprocessing/heart_disease_preprocessing/y_test.npy", y_test)
+np.save("heart_disease_preprocessing/X_train.npy", X_train)
+np.save("heart_disease_preprocessing/y_train.npy", y_train)
+np.save("heart_disease_preprocessing/X_test.npy", X_test)
+np.save("heart_disease_preprocessing/y_test.npy", y_test)
 
 print("Preprocessing selesai & file disimpan")
